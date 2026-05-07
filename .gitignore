@@ -1,11 +1,28 @@
-# File for AWS credentials
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# AWS credentials
 .env
 .venv/
 credentials
 secret_key.txt
+.aws/
 
-# Serverless Framework files
+# Serverless Framework
 .serverless/
 
-# AWS CDK files
+# AWS CDK
 cdk.out/
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
